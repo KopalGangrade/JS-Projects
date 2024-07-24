@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(rgb(225, 97, 146) , blue);
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-style: oblique;
+    height: 78vh;
+}
+
+#logo{
+margin-left: 40vw;
+margin-top: 4vh ;
+}
+
+#music-icon{
+    width: 35vw;
+    height: 40vh;
+    border: 2px solid black;
+    margin-left: 30vw;
+    margin-top: 2vh;
+    border-radius: 5%;
+}
+
+.music-title .title{
+    color: black;
+    padding-top: 3vh;
+    padding-left: 43vw;
+}
+
+.music-title .musicain{
+    padding-top: 1vh;
+    padding-left: 42vw;
+}
+
+.bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+    margin-right: 5vw;
+    gap: 14px;
+}
+
+
+.line{
+    width: 22%;
+    height: 5px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+#line-child{
+    cursor: pointer;
+    position: absolute;
+    border-radius: 10px;
+    background-color: yellow;
+    width: 10%;
+    height:105%;
+    transition: width 0.1s;
+}
+
+#line-child::after{
+    content:"";
+    position: absolute;
+    background-color: black;
+    cursor: pointer;
+    top: -3px;
+    right: 0;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+
+}
+
+
+/* ---------------------------------- */
+
+.play-buttons{
+    margin-top: 7vh;
+    margin-right: 3vw;
+    cursor: pointer;
+}
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.ctrl{
+    cursor: pointer;
+    background-color: yellowgreen;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 0 19px;
+}
+
+.cener:active{
+    transform: scale(0.9);
+}
+
+.line-bar{
+    position: relative;
+}
+
+
+.fa-share-alt{
+    margin-left: 62vw;
+    margin-bottom: 2vh;
+}
+
+.none{
+   display: none;
+}
+
+.fa-heart{
+    background-color: #fff;
+}

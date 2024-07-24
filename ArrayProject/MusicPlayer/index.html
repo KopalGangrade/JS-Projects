@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="border">
+    <header>
+        <div class="container">
+            <h2 id="logo">MUSIC PLAYER</h2>
+            <div class="share" onclick="shareLink()">
+                <i class="fas fa-share-alt"></i>
+            </div>
+            <div id="music-icon"><img src="Darkside.jpg" alt=""></div>
+            <div class="music-title">
+
+                <h2 class="title">Darkside</h2>
+                <h3 class="musicain">(Alan Walker)</h3>
+            </div>
+            <div class="bar">
+                <div class="start-time">00.00</div>
+                <div class="line">
+                        <div id="line-child"></div>
+                </div>
+                <div class="end-time">00.00</div>
+            </div>
+
+        </div>
+    </header>
+    <footer>
+        <div class="play-buttons center">
+            <i class="fas fa-sync-alt"></i>
+            <div class="icon-btn center ctrl" onclick="goBack()">
+                <i class="fas fa-backward"></i>
+            </div>
+            <div class="center ctrl" id="playsong">
+                <i class="fas fa-play" aria-hidden="true"></i>
+                <i class="fas fa-pause none" aria-hidden="true"></i>
+            </div>
+            <div class="icon-btn center ctrl" onclick="goForward()">
+                <i class="fas fa-forward"></i>
+            </div>   
+            <i class="far fa-heart"></i>
+        </div>
+        <audio id="main-audio" src=""></audio>
+    </footer>
+    </body>
+    </html>
+<script src="script1.js"></script>
+</body>
+</html> 

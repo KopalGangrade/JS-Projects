@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* -----------footer------------------ */
+
+header{
+    background-color: rgb(7, 102, 119);
+    height: 15vh;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4vh 4vw;
+}
+
+#left-arrow{
+    font-size: 2rem;
+    font-weight: 1000;
+    color: white;
+}
+
+.dot{
+    width: 5px;
+    height: 5px;
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: white;
+    padding: 2px;
+    margin: 2px;
+}
+
+h1{
+    color: white;
+}
+/* ------------------------------------ */
+
+/* -----------------main-------------------- */
+
+main{
+    height: 70vh;
+    background-color: rgb(192, 152, 152);
+    position: relative;
+}
+/* 
+.todolist{
+    padding-left: 20vw;
+    padding-top: 10vh;
+} */
+
+.inputbox{
+    padding-top: 55vh;
+    padding-left: 40vw;
+}
+/* ---------------------------------------- */
+
+footer{
+    height: 15vh;
+    background-color: rgb(39, 32, 32);
+}
+
+#add{
+    font-size: 4rem;
+    font-weight: 800;
+    border-radius: 50px;
+}
+
+#addTaskButton{
+    margin-bottom: 6vh;
+    margin-left: 48vw;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: rgb(122, 198, 30);
+    cursor: pointer;
+}
+
+
+#btn1{
+    margin-bottom: 2vh;
+    margin-left: 44vw;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: rgb(122, 198, 30);
+    cursor: pointer;
+}
+

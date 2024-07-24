@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO LIST</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofW+kf5ZA4eP8yS6ZDIaMb5bB6DBH2aa" crossorigin="anonymous"> -->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <i id="left-arrow">&#x3c;</i>
+            <h1>TODO LIST</h1>
+            <div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+        <div id="result"></div>
+    </header>
+    <main>
+        <div class="todolist">
+            <ul id="taskList"></ul>
+        </div>
+        <div id="input"></div>
+        <div class="inputbox">
+            <input type="text" id="taskInput" placeholder="Add a new task..." style="display: none;">
+            <!-- <input type="checkbox" id="checkbox" style="display: none;"> -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="addTaskContainer">
+            <button id="btn1" onclick="toggleInput()">+</button>
+            <button id="addTaskButton" onclick="addTask()" style="display: none;">Add</button>
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
